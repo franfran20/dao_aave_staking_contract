@@ -1,0 +1,20 @@
+dependencies:
+  - OpenZeppelin/openzeppelin-contracts@4.6.0
+  - aave/aave-v3-core@1.15.0
+compiler:
+  solc:
+    remappings:
+      - "@openzeppelin=OpenZeppelin/openzeppelin-contracts@4.6.0"
+      - "@aave=aave/aave-v3-core@1.15.0"
+networks:
+  mumbai-fork:
+    pool_addresses_provider: "0x5343b5bA672Ae99d627A1C87866b8E53F47Db2E6"
+    dai_token: "0x9A753f0F7886C9fbF63cF59D0D4423C5eFaCE95B"
+    link_token: "0xD9E7e5dd6e122dDE11244e14A60f38AbA93097f2"
+    aave_token: "0x0AB1917A0cf92cdcf7F7b637EaC3A46BBBE41409"
+    aave_oracle: "0x520D14AE678b41067f029Ad770E2870F85E76588"
+    
+  
+  
+    
+    
